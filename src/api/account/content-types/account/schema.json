@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accounts",
+  "info": {
+    "singularName": "account",
+    "pluralName": "accounts",
+    "displayName": "Account"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "agency": {
+      "type": "string"
+    },
+    "account": {
+      "type": "string"
+    },
+    "favored": {
+      "type": "string"
+    },
+    "doc": {
+      "type": "string"
+    },
+    "pix_or_similar": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "PF",
+        "PJ"
+      ]
+    }
+  }
+}
