@@ -41,6 +41,12 @@
     },
     "scope": {
       "type": "text"
+    },
+    "payment_link": {
+      "type": "string"
+    },
+    "payment_base64": {
+      "type": "text"
     }
   }
 }
