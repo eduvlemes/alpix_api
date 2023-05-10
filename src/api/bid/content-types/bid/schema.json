@@ -23,7 +23,7 @@
       "relation": "oneToOne",
       "target": "api::client.client"
     },
-    "delivery_Date": {
+    "delivery_date": {
       "type": "date"
     },
     "discount_at_sight": {
@@ -34,6 +34,13 @@
     },
     "accepted": {
       "type": "boolean"
+    },
+    "key": {
+      "type": "uid",
+      "required": true
+    },
+    "scope": {
+      "type": "text"
     }
   }
 }
