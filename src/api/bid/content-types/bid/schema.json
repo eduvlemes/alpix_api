@@ -47,6 +47,9 @@
     },
     "payment_base64": {
       "type": "text"
+    },
+    "paid": {
+      "type": "boolean"
     }
   }
 }
