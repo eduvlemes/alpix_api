@@ -36,6 +36,18 @@
     },
     "origin": {
       "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "corporate_name": {
+      "type": "string"
+    },
+    "state_registration": {
+      "type": "string"
+    },
+    "municipal_registration": {
+      "type": "string"
     }
   }
 }
