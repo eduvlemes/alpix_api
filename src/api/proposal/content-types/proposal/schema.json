@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proposals",
+  "info": {
+    "singularName": "proposal",
+    "pluralName": "proposals",
+    "displayName": "proposal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "client": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::client.client"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.services"
+    },
+    "timeline": {
+      "displayName": "timeline",
+      "type": "component",
+      "repeatable": true,
+      "component": "timeline.timeline"
+    },
+    "payment_terms": {
+      "type": "richtext"
+    }
+  }
+}
