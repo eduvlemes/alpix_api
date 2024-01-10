@@ -4,7 +4,8 @@
   "info": {
     "singularName": "proposal",
     "pluralName": "proposals",
-    "displayName": "proposal"
+    "displayName": "proposal",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,6 +29,9 @@
       "component": "timeline.timeline"
     },
     "payment_terms": {
+      "type": "richtext"
+    },
+    "about": {
       "type": "richtext"
     }
   }

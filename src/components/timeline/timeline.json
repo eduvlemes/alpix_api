@@ -1,18 +1,19 @@
 {
   "collectionName": "components_timeline_timelines",
   "info": {
-    "displayName": "timeline"
+    "displayName": "timeline",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
-    },
     "weeks": {
       "type": "integer"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
