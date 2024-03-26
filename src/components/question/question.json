@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_question_questions",
+  "info": {
+    "displayName": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "text_response": {
+      "type": "text"
+    },
+    "file_response": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "number_response": {
+      "type": "decimal"
+    },
+    "list_response": {
+      "type": "string"
+    },
+    "question_id": {
+      "type": "string"
+    }
+  }
+}
