@@ -27,7 +27,7 @@
       "type": "decimal"
     },
     "list_response": {
-      "type": "string"
+      "type": "json"
     },
     "question_id": {
       "type": "integer"
