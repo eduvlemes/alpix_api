@@ -30,7 +30,7 @@
       "type": "string"
     },
     "question_id": {
-      "type": "string"
+      "type": "integer"
     }
   }
 }
